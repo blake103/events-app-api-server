@@ -7,7 +7,7 @@ const db = require('../services/database.service');
 
 /**
  * GET /events
- * Returns an array of all the events
+ * Returns an array of all the events TEST TEST
  */
 router.get('/', async (req, res) => {
     res.json(await db.getEvents());
